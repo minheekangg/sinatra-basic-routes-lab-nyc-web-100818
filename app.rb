@@ -1,6 +1,10 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get('/name'){"minhee"}
+  resp = Rack::Response.new
+  req = Rack::Request.new(env)
+
+
+  get('/name'){resp.write "minhee"}
 
 end

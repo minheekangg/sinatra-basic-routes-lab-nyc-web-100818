@@ -6,5 +6,6 @@ class App < Sinatra::Base
 
 
   get('/name'){resp.write "minhee"}
+end
 
 end

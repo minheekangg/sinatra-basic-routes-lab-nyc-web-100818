@@ -7,7 +7,6 @@ class App < Sinatra::Base
 
   get '/name' do
     "minhee"
-  end
 
 
 

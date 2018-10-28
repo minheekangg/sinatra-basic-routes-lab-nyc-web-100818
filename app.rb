@@ -5,8 +5,7 @@ class App < Sinatra::Base
 
 class App < Sinatra::Base
 
-  get '/name' do
-    "minhee"
+  get '/name' {"minhee"}
 
 
 

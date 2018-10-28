@@ -6,7 +6,7 @@ class App < Sinatra::Base
 class App < Sinatra::Base
 
   get '/name' do
-    "Started my server using Shotgun!"
+    "minhee"
   end
 
 
